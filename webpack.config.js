@@ -3,6 +3,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devServer: {
+    host: '0.0.0.0',
     historyApiFallback: true
   },
 
