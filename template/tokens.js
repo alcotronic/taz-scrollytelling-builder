@@ -1,7 +1,7 @@
 const SCREEN_SIZES = [['phone', 500], ['tablet', 768], ['desktop', 1024]];
 
 const colors = {
-  brand: 'rgb(0 ,0, 0)'
+  brand: 'linear-gradient(to bottom, rgba(201,6,43,1) 0%,rgba(213,13,46,1) 100%)'
 };
 
 const fonts = {

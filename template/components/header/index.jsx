@@ -44,9 +44,7 @@ const Header = ({ url = '', data, children, twitterTitle = '' }) => {
         {<Logo />}
       </a>
 
-      <div className="logo-container">
-        <LogoIcon />
-      </div>
+
 
       <em className="title" readOnly>
         {title}

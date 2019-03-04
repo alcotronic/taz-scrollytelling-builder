@@ -5,7 +5,7 @@ import { colors, fonts, mq } from '../../tokens';
 export default css`
   .header {
     align-items: center;
-    background-color: ${colors.brand};
+    background: ${colors.brand};
     color: white;
     display: flex;
     flex-direction: row;
