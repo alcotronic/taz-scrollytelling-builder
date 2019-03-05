@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import { Router } from '@reach/router';
 import { Value } from 'slate';
 
+
 import StoryPage from './pages/story';
 import HomePage from './pages/home';
 import MetadataPage from './pages/metadata';
@@ -12,14 +13,18 @@ import MetadataPage from './pages/metadata';
 import ErrorBoundary from './components/error-boundary';
 import Store from './lib/store';
 
+
+
+
 class Application extends Component {
   constructor() {
     super();
-
     this.state.updateMetadataField = this.updateMetadataField;
     this.state.updateMetadata = this.updateMetadata;
     this.state.updateEditor = this.updateEditor;
   }
+
+
 
   state = {
     editor: {

@@ -6,14 +6,14 @@ const colors = {
 
 const fonts = {
   serif: {
-    family: 'Lora, serif',
+    family: 'DroidSerif, logo',
     weight: {
       regular: 400
     }
   },
 
   sansSerif: {
-    family: 'Poppins, sans-serif',
+    family: 'taz, logo',
     weight: {
       regular: 400,
       bold: 700

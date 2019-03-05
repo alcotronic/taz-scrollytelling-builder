@@ -221,6 +221,7 @@ export default css`
     color: currentColor;
     cursor: pointer;
     line-height: 1;
+    font-size: 19px;
   }
 
   .share-button:hover,

@@ -52,6 +52,19 @@ module.exports = {
             }
           }
         ]
+      },
+
+      {
+        test:  /\.css$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'assets/styles/'
+            }
+          }
+        ]
       }
     ]
   },

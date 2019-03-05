@@ -1,5 +1,13 @@
 import css from 'styled-jsx/css';
 
+import '../../assets/fonts/DroidSerif-Regular-webfont.woff';
+import '../../assets/fonts/Taz-Bold_tazze_private_only.woff';
+import '../../assets/fonts/Taz_4_.woff';
+import '../../assets/fonts/Taz_5_.woff';
+import '../../assets/fonts/Taz_6_.woff';
+import '../../assets/fonts/Taz_7_.woff';
+import '../../assets/fonts/Taz_8_.woff';
+
 import '../../assets/fonts/inter-ui-regular.woff2';
 import '../../assets/fonts/inter-ui-regular.woff';
 
@@ -36,6 +44,54 @@ export default css`
   :global(*::before),
   :global(*::after) {
     box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: DroidSerif;
+    src:
+      url("${path}/DroidSerif-Regular-webfont.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "logo";
+    src:
+      url("${path}/Taz-Bold_tazze_private_only.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: taz;
+    src:
+      url("${path}/Taz_5_.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: taz_bold;
+    src:
+      url("${path}/Taz_7_.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: taz_light;
+    src:
+      url("${path}/Taz_4_.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: taz_light_i;
+    src:
+      url("${path}/Taz_4_italic.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: taz_sbold;
+    src:
+      url("${path}/Taz_6_.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: taz_xbold;
+    src:
+      url("${path}/Taz_8_.woff") format("woff");
   }
 
   @font-face {
@@ -109,4 +165,6 @@ export default css`
     src: url('${path}/inter-ui-black-italic.woff2') format('woff2'),
       url('${path}/inter-ui-black-italic.woff') format('woff');
   }
+
+
 `;

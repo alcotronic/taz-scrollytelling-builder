@@ -178,18 +178,14 @@ export default {
           defaultValue={data['publisher-home-link']}
         />,
         <Input
-          type="hidden"
           name="header-title"
           label="Main title"
-          value="Europe's Far Right."
-          readOnly
+          defaultValue="Main title"
         />,
         <Input
-          type="hidden"
           name="header-research-type"
           label="Research Type"
-          value="Research Network"
-          readOnly
+          defaultValue="Research Type"
         />
       ]
     };

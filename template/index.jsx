@@ -1,3 +1,4 @@
+import css from 'styled-jsx/css';
 import { Block } from 'slate';
 
 import authors from './components/authors';

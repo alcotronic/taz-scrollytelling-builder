@@ -1,6 +1,9 @@
 import classnames from 'classnames';
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGetPocket } from '@fortawesome/free-brands-svg-icons';
+
 import FacebookIcon from './facebook.svg';
 import LogoIcon from '../../assets/images/logo.svg';
 import styles from './styles';
@@ -55,6 +58,14 @@ const Header = ({ url = '', data, children, twitterTitle = '' }) => {
 
       <div className="share">
         <span className="share-label">Share on</span>
+
+        <a
+          href={`https://getpocket.com/save?url=${encodedUrl}`}
+          className="share-button"
+        >
+          <FontAwesomeIcon icon={faGetPocket}/>
+          <span className="share-button-label">Share on facebook</span>
+        </a>
 
         <a
           href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}

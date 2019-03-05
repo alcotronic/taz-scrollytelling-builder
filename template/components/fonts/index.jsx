@@ -22,6 +22,17 @@ export default {
 
   extract() {
     const promises = [
+
+      'fa-brands-400.ttf',
+      'fa-brands-400.woff',
+      'fa-brands-400.woff2',
+      'fa-regular-400.ttf',
+      'fa-regular-400.woff',
+      'fa-regular-400.woff2',
+      'fa-solid-900.ttf',
+      'fa-solid-900.woff',
+      'fa-solid-900.woff2',
+
       'poppins.ttf',
       'poppins.woff',
       'poppins-bold.ttf',
