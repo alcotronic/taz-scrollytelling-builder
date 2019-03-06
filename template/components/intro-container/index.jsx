@@ -158,19 +158,6 @@ export default {
             e.g. use a service like https://tinypng.com.
           "
         />,
-        <Radio
-          name="publisher"
-          label="Publisher"
-          defaultValue={data.publisher}
-          choices={[
-            ['taz', 'taz'],
-            ['gazeta', 'Gazeta'],
-            ['liberation', 'Liberation'],
-            ['falter', 'Falter'],
-            ['internazionale', 'Internazionale'],
-            ['hvg', 'hvg']
-          ]}
-        />,
         <Input
           name="publisher-home-link"
           helpText="A link to the homepage of the publisher (e.g. https://taz.de/)"

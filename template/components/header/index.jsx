@@ -9,28 +9,15 @@ import LogoIcon from '../../assets/images/logo.svg';
 import styles from './styles';
 import TwitterIcon from './twitter.svg';
 
-import LogoFalter from '../../assets/images/falter-logo.svg';
-import LogoGazeta from '../../assets/images/gazeta-logo.svg';
-import LogoHVG from '../../assets/images/hvg-logo.svg';
-import LogoInternazionale from '../../assets/images/internazionale-logo.svg';
-import LogoLiberation from '../../assets/images/liberation-logo.svg';
 import LogoTaz from '../../assets/images/taz-logo.svg';
 
-const LOGOS = {
-  taz: LogoTaz,
-  gazeta: LogoGazeta,
-  internazionale: LogoInternazionale,
-  liberation: LogoLiberation,
-  falter: LogoFalter,
-  hvg: LogoHVG
-};
 
 const Header = ({ url = '', data, children, twitterTitle = '' }) => {
   const publisher = data.get('publisher');
   const link = data.get('publisher-home-link');
   const title = data.get('header-title');
   const researchType = data.get('header-research-type');
-  const Logo = LOGOS[publisher];
+  const Logo = LogoTaz;
   const encodedUrl = encodeURIComponent(url);
   const encodedTwitterTitle = encodeURIComponent(twitterTitle);
 
